@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caba87838e506ac41b67dd7a49faed92, type: 3}
+  m_Name: SandSlime
+  m_EditorClassIdentifier: 
+  nameSlime: Sand Slime
+  idleOneSprite: {fileID: 21300000, guid: 356d659d7e59ef94eabc1acac6ed0d09, type: 3}
+  idleTwoSprite: {fileID: 21300000, guid: b35e2657a5b83054b99d77331e31b0fe, type: 3}
+  type: 6
+  maxHp: 40
+  attack: 45
+  defense: 35
+  speed: 40
+  expYield: 80
+  growthRate: 1
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: cd3322969632d104b90a1748c5c06dcf, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: fedad58793d2c1640bbc78307ab5f2db, type: 2}
+    level: 5

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caba87838e506ac41b67dd7a49faed92, type: 3}
+  m_Name: GrassSlime
+  m_EditorClassIdentifier: 
+  nameSlime: Grass Slime
+  idleOneSprite: {fileID: 21300000, guid: 1c746d283f6a50341973b083a3ae49a3, type: 3}
+  idleTwoSprite: {fileID: 21300000, guid: de0783d0b0b787a47b64fcf1a08878bb, type: 3}
+  type: 1
+  maxHp: 40
+  attack: 50
+  defense: 30
+  speed: 50
+  expYield: 100
+  growthRate: 0
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: cd3322969632d104b90a1748c5c06dcf, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: 007caebfe96e66845ba697bdae2f1cfc, type: 2}
+    level: 5
